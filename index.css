@@ -1,0 +1,236 @@
+
+body {
+  font-family:   -apple-system-font,BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB , Microsoft YaHei UI , Microsoft YaHei ,Arial,sans-serif;
+  font-size: 13px;
+  line-height: 1.8em;
+  letter-spacing: 0.1em;
+  padding: 20px;
+}
+
+pre, code {
+  font-size: 14px;
+  font-family: Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
+  margin: auto 5px;
+}
+
+code {
+  white-space: pre-wrap;
+  border-radius: 2px;
+  display: inline;
+  line-height: 1.75;
+  font-size: 90%;
+  color: #d14;
+  background: rgba(27,31,35,.05);
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+
+pre {
+  font-size: 15px;
+  line-height: 1.4em;
+  display: block; !important;
+}
+
+pre code {
+  white-space: pre;
+  overflow: auto;
+  border-radius: 3px;
+  padding: 1px 1px;
+  display: block !important;
+}
+
+strong, b{
+  color: rgba(0, 152, 116, 1);
+  font-weight: bold;
+}
+
+em, i {
+  color: #009688;
+}
+
+hr {
+  line-height: 1.75;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px 0 0;
+  border-color: rgba(0,0,0,0.1);
+  -webkit-transform-origin: 0 0;
+  -webkit-transform: scale(1, 0.5);
+  transform-origin: 0 0;
+  transform: scale(1, 0.5);
+}
+
+p {
+  text-align: left;
+  line-height: 1.75;
+  font-size: 14px;
+  margin: 1.5em 8px;
+  letter-spacing: 0.1em;
+  color: #3f3f3f;
+}
+
+table, pre, dl, blockquote, q, ul, ol {
+  margin: 10px 5px;
+}
+
+ul, ol {
+  padding-left: 15px;
+}
+
+li {
+  line-height:1.75;
+  margin:0.2em 8px;
+  color:#3f3f3f
+}
+
+li p {
+  margin: 10px 0 !important;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+  margin: 0;
+  padding-left: 10px;
+}
+
+ul {
+  font-size: 14px;
+  margin-left: 0;
+  padding-left: 1em;
+  list-style: disc;
+  color: #3f3f3f;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+dl dd {
+  margin: 0 0 10px;
+  padding: 0 10px;
+}
+
+blockquote, q {
+  text-align: left;
+  line-height: 1.75;
+  font-style: normal;
+  border-left: none;
+  padding: 1em;
+  border-radius: 8px;
+  color: rgba(0,0,0,0.5);
+  background: #f7f7f7;
+  margin: 2em 8px;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+  content: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: bold !important;
+  text-align: center !important;
+  margin: 1.5em 5px !important;
+  padding: 0.5em 1em !important;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.75;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em auto 1em!important;
+  padding: 0 1em!important;
+  border-bottom: 2px solid rgba(0, 152, 116, 1);
+  color: #3f3f3f;
+  margin-top: 0;
+}
+
+
+h2 {
+  text-align: center;
+  line-height: 1.75;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: table!important;
+  margin: 4em auto 2em!important;
+  padding: 0 0.2em!important;
+  background: rgba(0, 152, 116, 1);
+  color: #fff!important;
+}
+
+h3 {
+  text-align: left!important;
+  line-height: 1.2;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 2em 8px 0.75em 0;
+  padding-left: 8px;
+  border-left: 3px solid rgba(0, 152, 116, 1);
+  color: #3f3f3f;
+}
+}
+
+h4 {
+  text-align: left;
+  line-height: 1.75;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 2em 8px 0.5em;
+  color: rgba(0, 152, 116, 1);
+}
+
+
+table {
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1em;
+  font: inherit;
+  border: 0;
+  margin: 0 auto;
+}
+
+tbody {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+table tr {
+  border: 0;
+  border-top: 1px solid #CCC;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+table tr:nth-child(2n) {
+  background-color: #F8F8F8;
+}
+
+table tr th, table tr td {
+  font-size: 16px;
+  border: 1px solid #CCC;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+table tr th {
+  font-weight: bold;
+  color: #eee;
+  border: 1px solid #009688;
+  background-color: #009688;
+}
+
+a {
+  text-align: left;
+  line-height: 1.75;
+  color: #576b95;
+  text-decoration: none;
+}
